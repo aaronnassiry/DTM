@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "starting dtm node app...."
 node app.js&
 echo "sleeping for 5 seconds..."
 sleep 5
