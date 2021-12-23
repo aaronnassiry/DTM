@@ -1,0 +1,4 @@
+node_modules/
+number-of-req.txt
+package-lock.json
+weblog.csv
