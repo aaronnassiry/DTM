@@ -15,7 +15,7 @@ const data = fs.readFileSync('./number-of-req.txt', 'utf-8');
 const reqNum = data.length 
 
 if (reqNum == 1){
-  fs.appendFileSync('./weblog.csv', 'Timestamp (UTC),Request Type,Request Number,Source IP' + "\r\n", function (err) {
+  fs.appendFileSync('./weblog.csv', 'Timestamp (UTC)               Request Type    Request Number   Source IP' + "\r\n", function (err) {
   if (err) throw err;
 });
 
@@ -27,12 +27,12 @@ fs.appendFileSync('./weblog.csv', request.getResponseHeader("Date") + "\t", func
 });
 
 //res.write("Request Method: " + req.method + '<br/>');
-fs.appendFileSync('./weblog.csv', req.method + "\t", function (err) {
+fs.appendFileSync('./weblog.csv', req.method + "\t\t", function (err) {
   if (err) throw err;
 });
 
 //res.write("number of requests " + reqNum + '<br/>')
-fs.appendFileSync('./weblog.csv', reqNum + "\t", function (err) {
+fs.appendFileSync('./weblog.csv', reqNum + "\t\t", function (err) {
   if (err) throw err;
 });
 
