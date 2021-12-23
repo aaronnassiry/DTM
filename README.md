@@ -1,8 +1,8 @@
 ```
-git clone https://github.com/aaronnassiry/DTM.git
-cd DTM
+1. git clone https://github.com/aaronnassiry/DTM.git
+2. cd DTM
 
-ls -tlr DTM
+- ls -tlr DTM
 -rw-r--r--  1 anassiry  staff   363 Dec 23 10:14 package.json
 -rw-r--r--  1 anassiry  staff  1479 Dec 23 13:43 app.js
 -rw-r--r--  1 anassiry  staff   393 Dec 23 14:44 Dockerfile
@@ -10,7 +10,7 @@ ls -tlr DTM
 -rwxr-xr-x@ 1 anassiry  staff   207 Dec 23 15:00 curl.sh*
 -rw-r--r--  1 anassiry  staff    39 Dec 23 15:01 README.md
 
-./run.sh
+3 ./run.sh
 let's build the docker image....
 
 [+] Building 0.7s (11/11) FINISHED                                                                                                             
@@ -35,7 +35,9 @@ let's build the docker image....
 starting docker image: dtm-web-app:latest....
 sleeping for 15 seconds
 logging into the docker image now....
-dtm@1921e1724f5b:/usr/src/app$ ./curl.sh 
+
+
+4. ./curl.sh 
 starting dtm node app....
 sleeping for 5 seconds...
 
