@@ -21,22 +21,21 @@ if (reqNum == 1){
 
 }
 
-//res.write("Date: " + request.getResponseHeader("Date") + '<br/>')
-fs.appendFileSync('./weblog.csv', request.getResponseHeader("Date") + "\t", function (err) {
+const request1 = new XMLHttpRequest();
+request1.open('GET', "http://salesforce.com", false);
+request1.send(null);
+fs.appendFileSync('./weblog.csv', request1.getResponseHeader("Date") + "\t", function (err) {
   if (err) throw err;
 });
 
-//res.write("Request Method: " + req.method + '<br/>');
 fs.appendFileSync('./weblog.csv', req.method + "\t\t", function (err) {
   if (err) throw err;
 });
 
-//res.write("number of requests " + reqNum + '<br/>')
 fs.appendFileSync('./weblog.csv', reqNum + "\t\t", function (err) {
   if (err) throw err;
 });
 
-//res.write("remote address: " + req.socket.remoteAddress)
 fs.appendFileSync('./weblog.csv', req.socket.remoteAddress + "\n", function (err) {
   if (err) throw err;
 });
