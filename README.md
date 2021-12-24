@@ -12,7 +12,7 @@
 -rwxr-xr-x@ 1 anassiry  staff   207 Dec 23 15:00 curl.sh*
 -rw-r--r--  1 anassiry  staff    39 Dec 23 15:01 README.md
 
-3 ./run.sh
+3 ./start.sh
 let's build the docker image....
 
 [+] Building 0.7s (11/11) FINISHED                                                                                                             
@@ -39,7 +39,7 @@ sleeping for 15 seconds
 logging into the docker image now....
 
 
-4. ./curl.sh 
+4. ./shell-scripts/curl.sh 
 starting dtm node app....
 sleeping for 5 seconds...
 
