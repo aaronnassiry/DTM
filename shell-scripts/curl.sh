@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "starting dtm node app...."
-node app.js&
+node src/index&
 echo "sleeping for 5 seconds..."
 sleep 5
 echo "making 25 calls to this endpoint:  http://localhost:9999"
