@@ -8,6 +8,9 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@store-sfdcbt-net/CICD_gulp-central-sfdx-lib-v1": "latest"
+  },
   "dependencies": {
     "fs": "0.0.1-security",
     "xmlhttprequest": "^1.8.0"
