@@ -1,8 +1,6 @@
 const bucketName = 'bucket-b4d65759-3302-dcb0-e913-3016708a967e';
 const filename = '../weblog.csv';
-
 const {Storage} = require('@google-cloud/storage');
-
 const storage = new Storage();
 
 async function uploadFile() {
