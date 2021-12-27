@@ -17,7 +17,7 @@ const requestListener = function(req, res) {
   if (reqNum === 1) {
     fs.appendFileSync(
       "./weblog.csv",
-      "Timestamp (UTC)               Request Type    Request Number   Source IP" + "\r\n",
+      "Timestamp,RequestType,RequestNumber,SourceIP" + "\r\n",
       function(err) {
         if (err) throw err;
       }
@@ -27,15 +27,15 @@ const requestListener = function(req, res) {
   const request1 = new XMLHttpRequest();
   request1.open("GET", "http://salesforce.com", false);
   request1.send(null);
-  fs.appendFileSync("./weblog.csv", request1.getResponseHeader("Date") + "\t", function(err) {
+  fs.appendFileSync("./weblog.csv", "\"" + request1.getResponseHeader("Date") + "\"" + ",", function(err) {
     if (err) throw err;
   });
 
-  fs.appendFileSync("./weblog.csv", req.method + "\t\t", function(err) {
+  fs.appendFileSync("./weblog.csv", req.method + ",", function(err) {
     if (err) throw err;
   });
 
-  fs.appendFileSync("./weblog.csv", reqNum + "\t\t", function(err) {
+  fs.appendFileSync("./weblog.csv", reqNum + ",", function(err) {
     if (err) throw err;
   });
 
