@@ -33,7 +33,7 @@ logging into the docker image now....
 ```
 
 5. exit the docker image
-6. 4. ./shell-scripts/curl.sh 
+6. ./shell-scripts/curl.sh 
 
 ```
 starting dtm node app....
