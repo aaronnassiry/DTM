@@ -7,8 +7,8 @@ function main() {
     schema: {
       fields: [
         {name: 'Timestamp', type: 'STRING'},
-        {name: 'Request_Number', type: 'STRING'},
         {name: 'Request_Type', type: 'STRING'},
+        {name: 'Request_Number', type: 'STRING'},
         {name: 'Source_IP', type: 'STRING'}
       ],
     },
