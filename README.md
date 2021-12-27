@@ -71,3 +71,35 @@ Timestamp,RequestType,RequestNumber,SourceIP
 8. export GOOGLE_APPLICATION_CREDENTIALS=account.json
 9. cd bigquery
 10. node query.js
+```
+{
+  Timestamp: 'Timestamp',
+  Request_Number: 'RequestType',
+  Request_Type: 'RequestNumber',
+  Source_IP: 'SourceIP'
+}
+{
+  Timestamp: 'Mon, 27 Dec 2021 19:39:00 GMT',
+  Request_Number: 'GET',
+  Request_Type: '1',
+  Source_IP: '::ffff:127.0.0.1'
+}
+{
+  Timestamp: 'Mon, 27 Dec 2021 19:39:01 GMT',
+  Request_Number: 'GET',
+  Request_Type: '2',
+  Source_IP: '::ffff:127.0.0.1'
+}
+{
+  Timestamp: 'Mon, 27 Dec 2021 19:39:01 GMT',
+  Request_Number: 'GET',
+  Request_Type: '3',
+  Source_IP: '::ffff:127.0.0.1'
+}
+{
+  Timestamp: 'Mon, 27 Dec 2021 19:39:02 GMT',
+  Request_Number: 'GET',
+  Request_Type: '4',
+  Source_IP: '::ffff:127.0.0.1'
+}
+```
