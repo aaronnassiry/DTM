@@ -68,8 +68,8 @@ Timestamp,RequestType,RequestNumber,SourceIP
 
 ```
 5. cd bigquery
-6. vi account.json
-7. export GOOGLE_APPLICATION_CREDENTIALS=account.json
+6. vi account.json and add your cloud account details to this file
+7. export GOOGLE_APPLICATION_CREDENTIALS=./account.json
 8. export GOOGLE_APPLICATION_PROJECT_ID=""
 9. export BIGQUERY_DATASET_ID=""
 10. node load.js
