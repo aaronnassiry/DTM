@@ -67,16 +67,16 @@ Timestamp,RequestType,RequestNumber,SourceIP
 "Mon, 27 Dec 2021 19:57:02 GMT",GET,25,::ffff:127.0.0.1
 
 ```
-5. vi account.json
-6. export GOOGLE_APPLICATION_CREDENTIALS=account.json
-7. export GOOGLE_APPLICATION_PROJECT_ID=""
-8. export BIGQUERY_DATASET_ID=""
-11. cd bigquery
-12. node load.js
+5. cd bigquery
+6. vi account.json
+7. export GOOGLE_APPLICATION_CREDENTIALS=account.json
+8. export GOOGLE_APPLICATION_PROJECT_ID=""
+9. export BIGQUERY_DATASET_ID=""
+10. node load.js
 ```
 Job interview-323823:US.c48b3f87-8a12-4325-a73f-16229d8757fe completed.
 ```
-13. node query.js
+11. node query.js
 ```
 {
   Timestamp: 'Timestamp',
