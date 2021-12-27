@@ -79,35 +79,34 @@ Job interview-323823:US.c48b3f87-8a12-4325-a73f-16229d8757fe completed.
 11. node query.js
 ```
 {
-  Timestamp: 'Mon, 27 Dec 2021 21:01:30 GMT',
-  Request_Number: 'GET',
-  Request_Type: '25',
+  Timestamp: 'Mon, 27 Dec 2021 21:19:10 GMT',
+  Request_Type: 'GET',
+  Request_Number: '25',
   Source_IP: '::ffff:127.0.0.1'
 }
 {
-  Timestamp: 'Mon, 27 Dec 2021 21:01:30 GMT',
-  Request_Number: 'GET',
-  Request_Type: '24',
+  Timestamp: 'Mon, 27 Dec 2021 21:19:10 GMT',
+  Request_Type: 'GET',
+  Request_Number: '24',
   Source_IP: '::ffff:127.0.0.1'
 }
 {
-  Timestamp: 'Mon, 27 Dec 2021 21:01:29 GMT',
-  Request_Number: 'GET',
-  Request_Type: '23',
+  Timestamp: 'Mon, 27 Dec 2021 21:19:09 GMT',
+  Request_Type: 'GET',
+  Request_Number: '23',
   Source_IP: '::ffff:127.0.0.1'
 }
 {
-  Timestamp: 'Mon, 27 Dec 2021 21:01:29 GMT',
-  Request_Number: 'GET',
-  Request_Type: '22',
+  Timestamp: 'Mon, 27 Dec 2021 21:19:09 GMT',
+  Request_Type: 'GET',
+  Request_Number: '22',
   Source_IP: '::ffff:127.0.0.1'
 }
 {
-  Timestamp: 'Mon, 27 Dec 2021 21:01:29 GMT',
-  Request_Number: 'GET',
-  Request_Type: '21',
+  Timestamp: 'Mon, 27 Dec 2021 21:19:08 GMT',
+  Request_Type: 'GET',
+  Request_Number: '21',
   Source_IP: '::ffff:127.0.0.1'
 }
-
 ```
 12. exit docker image
