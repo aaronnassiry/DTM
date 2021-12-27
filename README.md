@@ -71,7 +71,11 @@ Timestamp,RequestType,RequestNumber,SourceIP
 8. export GOOGLE_APPLICATION_CREDENTIALS=account.json
 9. npm install
 10. cd bigquery
-11. node query.js
+11. node load.js
+```
+Job interview-323823:US.c48b3f87-8a12-4325-a73f-16229d8757fe completed.
+```
+13. node query.js
 ```
 {
   Timestamp: 'Timestamp',
