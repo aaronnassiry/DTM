@@ -2,7 +2,7 @@
 
 1. git clone https://github.com/aaronnassiry/DTM.git
 2. cd DTM
-3 ./start.sh
+3. ./start.sh
 
 ```
 let's build the docker image....
