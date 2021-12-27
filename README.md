@@ -79,33 +79,34 @@ Job interview-323823:US.c48b3f87-8a12-4325-a73f-16229d8757fe completed.
 11. node query.js
 ```
 {
-  Timestamp: 'Timestamp',
-  Request_Number: 'RequestType',
-  Request_Type: 'RequestNumber',
-  Source_IP: 'SourceIP'
-}
-{
-  Timestamp: 'Mon, 27 Dec 2021 19:39:00 GMT',
+  Timestamp: 'Mon, 27 Dec 2021 21:01:30 GMT',
   Request_Number: 'GET',
-  Request_Type: '1',
+  Request_Type: '25',
   Source_IP: '::ffff:127.0.0.1'
 }
 {
-  Timestamp: 'Mon, 27 Dec 2021 19:39:01 GMT',
+  Timestamp: 'Mon, 27 Dec 2021 21:01:30 GMT',
   Request_Number: 'GET',
-  Request_Type: '2',
+  Request_Type: '24',
   Source_IP: '::ffff:127.0.0.1'
 }
 {
-  Timestamp: 'Mon, 27 Dec 2021 19:39:01 GMT',
+  Timestamp: 'Mon, 27 Dec 2021 21:01:29 GMT',
   Request_Number: 'GET',
-  Request_Type: '3',
+  Request_Type: '23',
   Source_IP: '::ffff:127.0.0.1'
 }
 {
-  Timestamp: 'Mon, 27 Dec 2021 19:39:02 GMT',
+  Timestamp: 'Mon, 27 Dec 2021 21:01:29 GMT',
   Request_Number: 'GET',
-  Request_Type: '4',
+  Request_Type: '22',
   Source_IP: '::ffff:127.0.0.1'
 }
+{
+  Timestamp: 'Mon, 27 Dec 2021 21:01:29 GMT',
+  Request_Number: 'GET',
+  Request_Type: '21',
+  Source_IP: '::ffff:127.0.0.1'
+}
+
 ```
