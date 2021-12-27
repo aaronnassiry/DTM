@@ -38,7 +38,7 @@ const requestListener = function(req, res) {
   fs.appendFileSync("./weblog.csv", reqNum + ",", function(err) {
     if (err) throw err;
   });
-
+  
   fs.appendFileSync("./weblog.csv", req.socket.remoteAddress + "\n", function(err) {
     if (err) throw err;
   });
