@@ -16,8 +16,9 @@ const options = {
 
 async function test() {
   const [rows] = await bigqueryClient.query(options);
-  for(let i=0; i< 5; i++) {
+  for(let i=rows.length-1; i > 20; i--) {
     console.log(rows[i])
   }
 }
+
 test()
