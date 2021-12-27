@@ -32,8 +32,7 @@ logging into the docker image now....
 
 ```
 
-5. exit the docker image
-6. ./shell-scripts/curl.sh 
+4. ./shell-scripts/curl.sh 
 
 ```
 starting dtm node app....
@@ -68,10 +67,10 @@ Timestamp,RequestType,RequestNumber,SourceIP
 "Mon, 27 Dec 2021 19:57:02 GMT",GET,25,::ffff:127.0.0.1
 
 ```
+5. vi account.json
+6. export GOOGLE_APPLICATION_CREDENTIALS=account.json
 7. export GOOGLE_APPLICATION_PROJECT_ID=""
 8. export BIGQUERY_DATASET_ID=""
-9. export GOOGLE_APPLICATION_CREDENTIALS=account.json
-10. npm install
 11. cd bigquery
 12. node load.js
 ```
