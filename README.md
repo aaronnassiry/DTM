@@ -31,7 +31,9 @@ sleeping for 15 seconds
 logging into the docker image now....
 
 ```
-4. ./shell-scripts/curl.sh 
+
+5. exit the docker image
+6. 4. ./shell-scripts/curl.sh 
 
 ```
 starting dtm node app....
@@ -66,13 +68,12 @@ Timestamp,RequestType,RequestNumber,SourceIP
 "Mon, 27 Dec 2021 19:57:02 GMT",GET,25,::ffff:127.0.0.1
 
 ```
-5. exit the docker image
-6. export GOOGLE_APPLICATION_PROJECT_ID=""
-7. export BIGQUERY_DATASET_ID=""
-8. export GOOGLE_APPLICATION_CREDENTIALS=account.json
-9. npm install
-10. cd bigquery
-11. node load.js
+7. export GOOGLE_APPLICATION_PROJECT_ID=""
+8. export BIGQUERY_DATASET_ID=""
+9. export GOOGLE_APPLICATION_CREDENTIALS=account.json
+10. npm install
+11. cd bigquery
+12. node load.js
 ```
 Job interview-323823:US.c48b3f87-8a12-4325-a73f-16229d8757fe completed.
 ```
