@@ -110,3 +110,4 @@ Job interview-323823:US.c48b3f87-8a12-4325-a73f-16229d8757fe completed.
 }
 
 ```
+12. exit docker image
