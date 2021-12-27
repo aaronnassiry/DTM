@@ -69,8 +69,9 @@ Timestamp,RequestType,RequestNumber,SourceIP
 6. export GOOGLE_APPLICATION_PROJECT_ID=""
 7. export BIGQUERY_DATASET_ID=""
 8. export GOOGLE_APPLICATION_CREDENTIALS=account.json
-9. cd bigquery
-10. node query.js
+9. npm install
+10. cd bigquery
+11. node query.js
 ```
 {
   Timestamp: 'Timestamp',
