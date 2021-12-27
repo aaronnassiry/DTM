@@ -1,18 +1,9 @@
 ### Quick Start Guide
 
-```
 1. git clone https://github.com/aaronnassiry/DTM.git
 2. cd DTM
-
-- ls -tlr DTM
--rw-r--r--  1 anassiry  staff   363 Dec 23 10:14 package.json
--rw-r--r--  1 anassiry  staff  1479 Dec 23 13:43 app.js
--rw-r--r--  1 anassiry  staff   393 Dec 23 14:44 Dockerfile
--rwxr-xr-x  1 anassiry  staff   278 Dec 23 14:48 run.sh*
--rwxr-xr-x@ 1 anassiry  staff   207 Dec 23 15:00 curl.sh*
--rw-r--r--  1 anassiry  staff    39 Dec 23 15:01 README.md
-
 3 ./start.sh
+```
 let's build the docker image....
 
 [+] Building 0.7s (11/11) FINISHED                                                                                                             
@@ -38,8 +29,10 @@ starting docker image: dtm-web-app:latest....
 sleeping for 15 seconds
 logging into the docker image now....
 
-
+```
 4. ./shell-scripts/curl.sh 
+
+```
 starting dtm node app....
 sleeping for 5 seconds...
 
@@ -73,3 +66,9 @@ Thu, 23 Dec 2021 23:25:40 GMT	GET		23		::ffff:127.0.0.1
 Thu, 23 Dec 2021 23:25:41 GMT	GET		24		::ffff:127.0.0.1
 Thu, 23 Dec 2021 23:25:41 GMT	GET		25		::ffff:127.0.0.1
 ```
+5. exit the docker image
+6. export GOOGLE_APPLICATION_PROJECT_ID=""
+7. export BIGQUERY_DATASET_ID=""
+8. export GOOGLE_APPLICATION_CREDENTIALS=account.json
+9. cd bigquery
+10. node query.js
