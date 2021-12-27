@@ -16,7 +16,6 @@ const options = {
 
 async function test() {
   const [rows] = await bigqueryClient.query(options);
-  console.log('Rows:');
   rows.forEach(row => console.log(row));
 }
 
