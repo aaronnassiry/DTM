@@ -4,6 +4,8 @@ RUN useradd dtm --shell /bin/bash --create-home \
   && usermod -a -G root dtm \
   && echo 'ALL ALL = (ALL) NOPASSWD: ALL' >> /etc/sudoers \
   && echo 'dtm:secret' | chpasswd
+  && apt-get update \
+  && apt-get install vim -y
 COPY package.json ./
 RUN npm install
 COPY . .
