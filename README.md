@@ -35,36 +35,35 @@ logging into the docker image now....
 ```
 starting dtm node app....
 sleeping for 5 seconds...
-
 making 25 calls to this endpoint:  http://localhost:9999
 
+Timestamp,RequestType,RequestNumber,SourceIP
+"Mon, 27 Dec 2021 19:56:50 GMT",GET,1,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:51 GMT",GET,2,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:51 GMT",GET,3,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:52 GMT",GET,4,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:52 GMT",GET,5,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:53 GMT",GET,6,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:53 GMT",GET,7,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:53 GMT",GET,8,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:54 GMT",GET,9,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:54 GMT",GET,10,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:55 GMT",GET,11,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:55 GMT",GET,12,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:56 GMT",GET,13,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:56 GMT",GET,14,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:57 GMT",GET,15,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:57 GMT",GET,16,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:58 GMT",GET,17,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:58 GMT",GET,18,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:59 GMT",GET,19,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:56:59 GMT",GET,20,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:57:00 GMT",GET,21,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:57:00 GMT",GET,22,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:57:01 GMT",GET,23,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:57:01 GMT",GET,24,::ffff:127.0.0.1
+"Mon, 27 Dec 2021 19:57:02 GMT",GET,25,::ffff:127.0.0.1
 
-Timestamp (UTC)               Request Type    Request Number   Source IP
-Thu, 23 Dec 2021 23:25:36 GMT	GET		1		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:36 GMT	GET		2		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:36 GMT	GET		3		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:37 GMT	GET		4		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:37 GMT	GET		5		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:37 GMT	GET		6		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:37 GMT	GET		7		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:37 GMT	GET		8		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:37 GMT	GET		9		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:38 GMT	GET		10		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:38 GMT	GET		11		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:38 GMT	GET		12		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:39 GMT	GET		13		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:39 GMT	GET		14		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:39 GMT	GET		15		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:39 GMT	GET		16		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:39 GMT	GET		17		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:39 GMT	GET		18		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:40 GMT	GET		19		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:40 GMT	GET		20		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:40 GMT	GET		21		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:40 GMT	GET		22		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:40 GMT	GET		23		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:41 GMT	GET		24		::ffff:127.0.0.1
-Thu, 23 Dec 2021 23:25:41 GMT	GET		25		::ffff:127.0.0.1
 ```
 5. exit the docker image
 6. export GOOGLE_APPLICATION_PROJECT_ID=""
