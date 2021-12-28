@@ -19,8 +19,8 @@ const Connection = require('tedious').Connection;
     });
     newConnection.connect(function(err) {
         if (err) throw err;
-        console.log("Connected!");
-        var sql = "CREATE TABLE weblog (Timestamp VARCHAR(255), MethodType VARCHAR(255), RequestNumber VARCHAR(255), SourceIP VARCHAR(255))";
+        console.info("Connected!");
+        const sql = "CREATE TABLE weblog (Timestamp VARCHAR(255), MethodType VARCHAR(255), RequestNumber VARCHAR(255), SourceIP VARCHAR(255))";
         con.query(sql, function (err, result) {
           if (err) throw err;
           console.log("Table created");
